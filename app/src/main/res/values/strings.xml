@@ -1,3 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GithubBrowser</string>
+    <string name="back">Back</string>
+    <string name="repo_details_author">Author</string>
+    <string name="repo_details_url">URL</string>
+    <string name="repo_details_forks">Forks</string>
+    <string name="repo_details_stars">Stars</string>
+    <string name="repo_details_language">Language</string>
+    <string name="repo_details_last_updated">Last Updated</string>
+    <string name="repo_details_description_title">Description</string>
+    <string name="repo_details_no_description">No description provided.</string>
+    <string name="repo_details_unknown_language">Unknown</string>
+    <string name="repo_details_loading_error">Failed to load repository details.</string>
+    <string name="repo_list_unknown_error">Unknown error</string>
+    <string name="repo_details_unknown_error">Unknown error occurred.</string>
+    <string name="repo_list_title">Github Repositories</string>
+    <string name="repo_list_search_label">Search by language</string>
+    <string name="repo_list_error_title">Error loading repositories:</string>
+    <string name="repo_list_empty_title">No results found for:</string>
+    <string name="repo_list_empty_subtitle">Try a different programming language.</string>
+    <string name="repo_list_initial_prompt">Enter a language above to search GitHub repositories.</string>
+    <string name="repo_list_loading">Loading repositories...</string>
+    <string name="repo_list_owner_avatar_content_description">Owner avatar</string>
+    <string name="repo_list_no_description">No description</string>
+    <string name="repo_details_loading">Loading details...</string>
+    <string name="repo_details_error">Error</string>
 </resources>

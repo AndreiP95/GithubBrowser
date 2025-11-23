@@ -1,0 +1,44 @@
+build:
+  maxIssues: 20
+
+style:
+  MagicNumber:
+    active: false
+  UnusedPrivateMember:
+    active: true
+  MaxLineLength:
+    maxLineLength: 120
+  ReturnCount:
+    max: 3
+  DestructuringDeclarationWithTooManyEntries:
+    maxDestructuringEntries: 4
+  ForbiddenComment:
+    active: false
+  LibraryEntitiesShouldNotBePublic:
+    active: true
+  UseDataClass:
+    active: true
+
+complexity:
+  ComplexMethod:
+    threshold: 15
+  LongParameterList:
+    functionThreshold: 6
+    constructorThreshold: 8
+  TooManyFunctions:
+    thresholdInFiles: 25
+
+performance:
+  SpreadOperator:
+    active: true
+
+exceptions:
+  TooGenericExceptionCaught:
+    active: true
+    allowedExceptionNameRegex: '_|ignored|expected'
+
+comments:
+  UndocumentedPublicClass:
+    active: false
+  UndocumentedPublicFunction:
+    active: false
